@@ -9,6 +9,6 @@ spec:
   templates:
     - name: whalesay3
       container:
-        image: docker/subtle-notify:latest
+        image: docker/whalesay3
         command: [cowsay3]
         args: ["hello from argo workflows"]
