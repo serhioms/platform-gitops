@@ -5,10 +5,10 @@ metadata:
   name: hello-template
   namespace: argo
 spec:
-  entrypoint: whalesay2
+  entrypoint: whalesay3
   templates:
-    - name: whalesay2
+    - name: whalesay3
       container:
         image: docker/whalesay2:latest
-        command: [cowsay2]
+        command: [cowsay3]
         args: ["hello from argo workflows"]
